@@ -9,7 +9,36 @@ header {
 }
 
 main {
-    text-align: center;
     margin-left: 20%;
     margin-right: 20%;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+/* Foto */
+.Container {
+    font-family: 'Fredoka One';
+    background: black;
+}
+
+img {
+    vertical-align: middle;
+    width: 10%;
+    display: inline-block;
+}
+
+.Dati {
+    color: white;
+    display: inline-block;
+}
+
+.Tipo {
+
+}
+
+.Nome {
+    
 }
