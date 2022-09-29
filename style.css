@@ -9,11 +9,12 @@ header {
 }
 
 main {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 p {
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin-bottom: 5%;
 }
@@ -21,24 +22,42 @@ p {
 /* Foto */
 .Container {
     font-family: 'Fredoka One';
-    background: black;
+    background: rgb(0, 0, 0);
+    width: 400px;
+}
+
+/* clearfix */
+.Container::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 img {
+    float: left;
     vertical-align: middle;
-    width: 10%;
+    width: 100px;
     display: inline-block;
 }
 
 .Dati {
+    padding-left: 20px;
     color: white;
     display: inline-block;
 }
 
-.Tipo {
-
+.Nome {
+    padding-top: 10px;
 }
 
-.Nome {
-    
+.Professione {
+    font-family: 'Fredoka One' sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aquamarine;
+    text-decoration: none;
 }
