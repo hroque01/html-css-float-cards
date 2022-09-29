@@ -33,6 +33,11 @@ p {
     clear: both;
 }
 
+.Colonne {
+    float: left;
+    width: calc(100% / 3);
+}
+
 img {
     float: left;
     vertical-align: middle;
